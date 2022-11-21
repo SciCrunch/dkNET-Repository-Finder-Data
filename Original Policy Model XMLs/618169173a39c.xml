@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><interview><metadata><model><id>nih-repotag</id><version>3</version><localization>en_US</localization><time>1635871313</time></model><!--Converted at: 1643843254189--></metadata><result status="Accept"><compound slot="NIHDSP"><compound slot="CitationSupport"><atomic ordinal="0" outOf="3" slot="MetadataLevel">none</atomic></compound><aggregate slot="DataTypes"><value>prtmc</value></aggregate><aggregate slot="Domain"><value>strbio</value></aggregate><aggregate slot="Flags"><value>hasContactPerson</value></aggregate><atomic ordinal="0" outOf="2" slot="PHISupport">notSupported</atomic><compound slot="Restrictions"><atomic ordinal="0" outOf="2" slot="ApplicationRequired">no</atomic><atomic ordinal="0" outOf="3" slot="Costs">none</atomic><atomic ordinal="0" outOf="4" slot="FundingSource">Any</atomic><aggregate slot="OtherRestrictions"><value>publishedOnly</value></aggregate><atomic ordinal="0" outOf="3" slot="SizeLimits">none</atomic></compound><atomic ordinal="0" outOf="2" slot="Versioning">notSupported</atomic></compound></result><transcript><question id="[decision-graph.dg]qApplication"><text><![CDATA[# Does the repository require depositors to go through an application process prior to depositing datasets?]]></text><answer>no</answer></question><question id="[decision-graph.dg]qSize"><text><![CDATA[# Does the repository impose size limits?
+
+
+
+Some repositories place limits on the size of data that can be deposited. These limits may involve: 
+
+
+
+1. absolute limits, i.e., they will accept no dataset above a certain size;
+
+2. relative limits, e.g., data above a certain size is subject to approval or perhaps additional costs;
+
+3. submission limits, e.g., data above a certain size requires special arrangements for submission.
+
+
+
+### Terms
+
+* *contact*: Contact the repository management for depositing large datasets.
+
+
+
+---
+
+
+
+### 📝 Notes 
+
+Note any limits in the notes field]]></text><answer>no</answer></question><question id="[decision-graph.dg]qCost"><text><![CDATA[# Does depositing data involve costs to the depositor?
+
+
+
+Sometimes there are conditions under which the depositor has to pay.
+
+
+
+---
+
+
+
+### 📝 Notes 
+
+Please add those conditions in the notes field.]]></text><answer>no</answer></question><question id="[decision-graph.dg]qVersioning"><text><![CDATA[# Does the repository support versioning?
+
+
+
+Check whether there's a version number in the metadata, check policy for information, if they handle it as a new data submission then the answer is 'no' unless there's something clearly about the relationship between the different versions.]]></text><answer>no</answer></question><question id="[decision-graph.dg]qPhi"><text><![CDATA[# Can the repository store data containing PHI or any other sensitive information?
+
+
+
+The repository needs to have an explicit statement that they're able to handle identified human subject data or other sensitive information that cannot be made public.  Generally, the repository will have documentation about access requirements, e.g., applying to a data access committee to receive permission to use the data.
+
+
+
+### Terms
+
+* *PHI*: Protected Health Information. See also [What Health Information Is Protected by the Privacy Rule?](https://privacyruleandresearch.nih.gov/pr_07.asp)]]></text><answer>no</answer></question><question id="[decision-graph.dg]qDomain"><text><![CDATA[# Does the repository focus on a specific domain?
+
+
+
+Is there a specific biomedical discipline or subdiscipline this repository is serving such that if you're not working within the discipline you would not be depositing data. E.g. AMPT2D.
+
+
+
+Note that __domain__ is different from __data type__ (e.g. genomics).]]></text><answer>yes</answer></question><question id="[decision-graph.dg]qDomainList"><text><![CDATA[# What is the repository's specific domain?
+
+
+
+Select the domain. If it isn't in our list, select 'Other'. 
+
+
+
+---
+
+
+
+### 📝 Notes 
+
+Please note the domain name in the notes field.]]></text><answer>Structural biology</answer></question><question id="[decision-graph.dg]qDataType"><text><![CDATA[# Does the repository store a single data type?
+
+
+
+The repository is primarily built around a single type of data, e.g. imaging data although it may allow multiple types of imaging data.  The repository also may allow supporting information that is of another data type.]]></text><answer>yes</answer></question><question id="[decision-graph.dg]qDataTypeList"><text><![CDATA[# Is this repository specialized for a particular type of data?]]></text><answer>Proteomic</answer></question><question id="[decision-graph.dg]qContact"><text><![CDATA[# Does the repository supply a contact person?]]></text><answer>yes</answer></question><question id="[decision-graph.dg]qFundingSource"><text><![CDATA[# Does the repository require data to come from an NIH funded project?
+
+
+
+### Terms
+
+* *NIH*: US National Institutes of Health]]></text><answer>no</answer></question><question id="[decision-graph.dg]qPublised"><text><![CDATA[# Does the repository require datasets to support a published paper?
+
+
+
+If there is no explicit statement that claims this, then we say no.]]></text><answer>yes</answer><note><![CDATA[publication of related paper for dataset is required for data public release but a lot of public data don't have publication]]></note></question><question id="[decision-graph.dg]qCitationMetadata"><text><![CDATA[# Does the repository make it easy to cite data?
+
+
+
+For example, the repository provides a formatted data citation with each dataset.
+
+
+
+### Terms
+
+* *limited:* The repository presents formatted data citation that users can cut and paste
+
+* *yes:* The repository can export Bibtex, or allows datasets to be imported into reference managers.]]></text><answer>no</answer></question></transcript></interview>
