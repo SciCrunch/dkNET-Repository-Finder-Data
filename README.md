@@ -5,9 +5,10 @@ Repository for the data behind the repository finder
 
 ## Original Paper Model [dkNET-DRP](split-by-model/dkNET-DRP)
 
-Model: http://trees.scicrunch.io/models/dkNET-DRP/7/?localizationName=en-US
+* Model: http://trees.scicrunch.io/models/dkNET-DRP/7/?localizationName=en-US
+* Top Coordinate: `DataRepoCompliance`
+* Summary Data: [summary](split-by-model/dkNET-DRP/summary/)
 
-Top Coordinate: `DataRepoCompliance`
 
 ## Repository Tagging for the dkNET tool [nih-repotag](split-by-model/nih-repotag/)
 
