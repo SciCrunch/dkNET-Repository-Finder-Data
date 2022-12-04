@@ -1,0 +1,6853 @@
+{
+ "space": {
+  "DataRepoCompliance": {
+   "Open":["closed","partiallyOpen","fullyOpen"],
+   "FAIR": {
+    "Findable":["notFindable","partiallyFindable","fullyFindable"],
+    "Accessible":["notAccessible","partiallyAccessible","fullyAccessible"],
+    "Interoperable":["notInteroperable","partiallyInteroperable","fullyInteroperable"],
+    "Reusable":["notReusable","partiallyReusable","fullyReusable"]
+   },
+   "Citable":["notCitable","partiallyCitable","fullyCitable"],
+   "Trustworthy":["significantConcerns","minorConcerns","noConcerns"],
+   "Properties": {
+    "OpenProps": {
+     "Restrictions":["none","minimal","significant"],
+     "CCLicenseCompliance":["nonCompliant","none","adequate","good","full"],
+     "OpenFlags": {
+      "openFormat":["no","yes"],
+      "platformSupportsDataWork":["no","yes"],
+      "ccLicenseOK":["no","yes"],
+      "restrictionsNotJustified":["no","yes"]
+     }
+    },
+    "FAIRProps": {
+     "FindableProps": {
+      "PersistentIdentifier":["none","internalPID","externalPID"],
+      "MetadataGrade":["minimal","limited","rich"],
+      "IdInMetadata":["none","partial","all"],
+      "FindableFlags": {
+       "internalSearchOK":["no","yes"]
+      }
+     },
+     "AccessibleProps": {
+      "MetadataPersistence":["no","byEvidence","byStatedPolicy"],
+      "AccessibleFlags": {
+       "humanAccessible":["no","yes"],
+       "machineAccessible":["no","yes"],
+       "persistentMetadata":["no","yes"],
+       "licenseOK":["no","yes"],
+       "stdApi":["no","yes"]
+      }
+     },
+     "InteroperableProps": {
+      "MetadataFAIRness":["minimal","allowed","enforced"],
+      "MetadataReferenceQuality":["freeText","informal","formal"],
+      "StudyLinkage":["none","freeText","textualMetadata","machineReadableMetadata"],
+      "InteroperableFlags": {
+       "formalMetadataVocabularyOK":["no","yes"],
+       "fairMetadataOK":["no","yes"],
+       "qualifiedMetadataReferencesOK":["no","yes"],
+       "studyLinkageOK":["no","yes"]
+      }
+     },
+     "ReusableProps": {
+      "DocumentationLevel":["lacking","adequate","good","full"],
+      "ReuseLicense":["none","repositoryLevel","datasetLevel"],
+      "MetadataProvenance":["unclear","adequate","full"],
+      "DkNetMetadataLevel":["none","dataset","datasetAndSubject"],
+      "ReusableFlags": {
+       "documentationOK":["no","yes"],
+       "dkNetMetadataOK":["no","yes"],
+       "communityStandard":["no","yes"],
+       "generalMetadata":["no","yes"],
+       "metadataProvenanceOK":["no","yes"]
+      }
+     }
+    },
+    "CitableProps": {
+     "OrcidAssociation":["none","supported","required"],
+     "CitationMetadataLevel":["none","partial","full"],
+     "MachineReadableLandingPage":["none","exists","supportsDataCitation"]
+    },
+    "TrustworthinessProps": {
+     "GovernanceTransparency":["opaque","partial","full"],
+     "StakeholderGovernance":["none","weak","good","full"],
+     "SourceOpen":["no","partially","yes"]
+    }
+   }
+  }
+ },
+ "transcripts": {
+  "616712744a595": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"none",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       }
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "619441c4acb77": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61af958cc8abe": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"opaque"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "OpenProps": {
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"adequate",
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61573f38ef525": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "StakeholderGovernance":"weak",
+      "SourceOpen":"yes",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"full",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "DocumentationLevel":"good"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     }
+    },
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible",
+     "Interoperable":"notInteroperable"
+    }
+   }
+  },
+  "61942b69bdeab": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"none",
+       "MetadataGrade":"minimal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "Restrictions":"significant",
+      "CCLicenseCompliance":"none"
+     }
+    },
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"closed",
+    "FAIR": {
+     "Findable":"notFindable",
+     "Reusable":"notReusable",
+     "Accessible":"notAccessible",
+     "Interoperable":"notInteroperable"
+    }
+   }
+  },
+  "61b2654669195": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"adequate",
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"yes"
+      },
+      "Restrictions":"significant"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      }
+     }
+    }
+   }
+  },
+  "61a9183722786": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"textualMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"none"
+      },
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "PersistentIdentifier":"externalPID"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     }
+    },
+    "Open":"fullyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "6164baf6052a8": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"fullyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "StakeholderGovernance":"good",
+      "SourceOpen":"yes",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"allowed",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"good"
+      }
+     },
+     "OpenProps": {
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"full",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    }
+   }
+  },
+  "617c779c5bc94": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataFAIRness":"allowed",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61a909a92778f": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"full",
+      "StakeholderGovernance":"good"
+     },
+     "OpenProps": {
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"supported",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "Trustworthy":"noConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61676b2d11524": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "6176e09b35d7f": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataFAIRness":"allowed",
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"notAccessible"
+    }
+   }
+  },
+  "6182df9c3d9e3": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "FAIRProps": {
+      "ReusableProps": {
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none",
+       "DocumentationLevel":"good"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"significant",
+      "CCLicenseCompliance":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    }
+   }
+  },
+  "61b23d317644e": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"adequate",
+      "Restrictions":"significant",
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"repositoryLevel",
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"none"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"no",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "6171d0459add1": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     }
+    },
+    "FAIR": {
+     "Findable":"partiallyFindable",
+     "Reusable":"notReusable",
+     "Accessible":"partiallyAccessible",
+     "Interoperable":"notInteroperable"
+    }
+   }
+  },
+  "616066f394fa6": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     }
+    }
+   }
+  },
+  "61ae6db443359": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "TrustworthinessProps": {
+      "StakeholderGovernance":"good",
+      "SourceOpen":"yes",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"unclear",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"good"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    },
+    "Citable":"partiallyCitable",
+    "Open":"fullyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "6198331eb3593": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"fullyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "DocumentationLevel":"good"
+      },
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"textualMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     }
+    }
+   }
+  },
+  "6179b9da80888": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"informal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       }
+      },
+      "AccessibleProps": {
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       },
+       "MetadataPersistence":"no"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"repositoryLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      }
+     }
+    }
+   }
+  },
+  "618eaa9fcd36f": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "GovernanceTransparency":"full",
+      "StakeholderGovernance":"good",
+      "SourceOpen":"yes"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"none",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     }
+    },
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "615b89fa770b6": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"required"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "GovernanceTransparency":"full",
+      "StakeholderGovernance":"good",
+      "SourceOpen":"yes"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "MetadataReferenceQuality":"formal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"full",
+       "DkNetMetadataLevel":"datasetAndSubject",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"good"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     }
+    },
+    "Open":"fullyOpen",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    }
+   }
+  },
+  "6194378833fb3": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"none",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "621d682e591a5": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Citable":"partiallyCitable",
+    "Open":"fullyOpen",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61816a627e26b": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "FAIRProps": {
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"good",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "GovernanceTransparency":"full",
+      "StakeholderGovernance":"good",
+      "SourceOpen":"yes"
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61b38f199319f": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible",
+     "Interoperable":"notInteroperable"
+    },
+    "Properties": {
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"none",
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"none",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"significant",
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     }
+    }
+   }
+  },
+  "6177452b8b6c7": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "IdInMetadata":"partial",
+       "MetadataGrade":"rich",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"repositoryLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "DocumentationLevel":"good"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"full",
+      "StakeholderGovernance":"full"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"required",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "6176c84f1c023": {
+   "DataRepoCompliance": {
+    "Trustworthy":"noConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "GovernanceTransparency":"full",
+      "SourceOpen":"yes",
+      "StakeholderGovernance":"full"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "MetadataReferenceQuality":"formal",
+       "StudyLinkage":"machineReadableMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"datasetAndSubject",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"good"
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"fullyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "614ba8756c8db": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"datasetAndSubject",
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"allowed",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"partial",
+      "StakeholderGovernance":"full"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61a7bc9e3a002": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"good"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"none",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61818c0471e3e": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"fullyOpen",
+    "Properties": {
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"good"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    }
+   }
+  },
+  "6182f66084e0b": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     }
+    },
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "618180e41db0e": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable"
+   }
+  },
+  "61afc04c3cc7a": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "FAIRProps": {
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"good"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     }
+    },
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Open":"partiallyOpen"
+   }
+  },
+  "6155e4b25d5bb": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"none",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     }
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "618063fc1eba5": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "StakeholderGovernance":"none",
+      "SourceOpen":"yes",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"none",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61a92a18640d8": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Citable":"partiallyCitable",
+    "Open":"fullyOpen",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"none"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "6198648660f3d": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       },
+       "MetadataPersistence":"no"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none"
+     }
+    }
+   }
+  },
+  "61941c2f7748c": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Reusable":"partiallyReusable",
+     "Findable":"notFindable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"closed",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"none",
+       "MetadataGrade":"minimal"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"required",
+      "CitationMetadataLevel":"none"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"yes"
+      },
+      "Restrictions":"significant",
+      "CCLicenseCompliance":"none"
+     }
+    }
+   }
+  },
+  "618afa63748f2": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"no",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       },
+       "MetadataPersistence":"no"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      }
+     }
+    },
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"notAccessible"
+    }
+   }
+  },
+  "617ad2ab32afc": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "6165b40aacafb": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"fullyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "FAIRProps": {
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"opaque"
+     }
+    }
+   }
+  },
+  "618e95d1e58c7": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"notAccessible",
+     "Interoperable":"notInteroperable"
+    },
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"closed",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "PersistentIdentifier":"none",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "Restrictions":"significant",
+      "CCLicenseCompliance":"none"
+     }
+    }
+   }
+  },
+  "617accb79fb53": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "615b72f7e220a": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Citable":"partiallyCitable",
+    "Open":"fullyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "DocumentationLevel":"lacking"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "StakeholderGovernance":"weak",
+      "SourceOpen":"yes",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none"
+     }
+    }
+   }
+  },
+  "61799d37c3555": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Trustworthy":"minorConcerns",
+    "Citable":"partiallyCitable",
+    "Open":"fullyOpen",
+    "Properties": {
+     "FAIRProps": {
+      "AccessibleProps": {
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       },
+       "MetadataPersistence":"no"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"rich",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "ReusableProps": {
+       "ReuseLicense":"repositoryLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"datasetAndSubject",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"full"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"partial",
+      "StakeholderGovernance":"full"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    }
+   }
+  },
+  "61782a94716e3": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"fullyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"good"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      }
+     }
+    }
+   }
+  },
+  "614b619410622": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"informal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       }
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"datasetAndSubject",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"good"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     }
+    }
+   }
+  },
+  "615dc910773b8": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"textualMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"repositoryLevel",
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"full",
+       "DkNetMetadataLevel":"dataset"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none"
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"fullyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61732f9ba6055": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"fullyFindable",
+     "Accessible":"fullyAccessible",
+     "Reusable":"partiallyReusable"
+    },
+    "Properties": {
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"allowed",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"no",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "DkNetMetadataLevel":"none"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"partial",
+      "StakeholderGovernance":"full"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"supported"
+     }
+    }
+   }
+  },
+  "616f4035b5cf4": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"fullyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Properties": {
+     "FAIRProps": {
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"full",
+       "DkNetMetadataLevel":"datasetAndSubject",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none",
+       "DocumentationLevel":"good"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none"
+     }
+    }
+   }
+  },
+  "6198116a6dfed": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    }
+   }
+  },
+  "61805a39e24bb": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"textualMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "MetadataReferenceQuality":"informal"
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"full"
+     }
+    },
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61afe38742749": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      },
+      "AccessibleProps": {
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"no",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       },
+       "MetadataPersistence":"no"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"notAccessible"
+    }
+   }
+  },
+  "61800a6acbf2a": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     }
+    }
+   }
+  },
+  "617850897d411": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      }
+     }
+    }
+   }
+  },
+  "618af1fa72f85": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"required"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"formal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       }
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"full",
+      "StakeholderGovernance":"full"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "619c1b5161bad": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    }
+   }
+  },
+  "61b3991a21735": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"supported",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataFAIRness":"allowed",
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      }
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61a66d491f16a": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "FAIRProps": {
+      "ReusableProps": {
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none",
+       "DocumentationLevel":"good"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    }
+   }
+  },
+  "619c34b5360d2": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "618772a4eda31": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"closed",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible",
+     "Interoperable":"notInteroperable"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "Restrictions":"significant",
+      "CCLicenseCompliance":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      }
+     }
+    }
+   }
+  },
+  "61a7e89c785ae": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"good"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"required",
+      "CitationMetadataLevel":"partial"
+     }
+    }
+   }
+  },
+  "61783f6c4c8e7": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"notAccessible"
+    },
+    "Properties": {
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"no",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       },
+       "MetadataPersistence":"no"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     }
+    }
+   }
+  },
+  "617864ac7b873": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"textualMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      }
+     }
+    }
+   }
+  },
+  "61b257c62b44a": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no"
+      },
+      "FindableProps": {
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"significant",
+      "CCLicenseCompliance":"none"
+     }
+    },
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"notAccessible"
+    }
+   }
+  },
+  "618194d41e94a": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported",
+      "CitationMetadataLevel":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "614df6a85b9b1": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"allowed",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"repositoryLevel",
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "617af3b01bff2": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"full"
+     }
+    },
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "618b0ed289968": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"supported",
+      "CitationMetadataLevel":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     }
+    }
+   }
+  },
+  "61aa8e7632db5": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "StakeholderGovernance":"good",
+      "SourceOpen":"yes",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"freeText",
+       "StudyLinkage":"none"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"datasetAndSubject",
+       "DocumentationLevel":"lacking"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"full"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61830248beb1c": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"full"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "MetadataReferenceQuality":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"none"
+      }
+     }
+    }
+   }
+  },
+  "621d4ff4808c5": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "FindableProps": {
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"dataset",
+       "DocumentationLevel":"lacking"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"full",
+      "StakeholderGovernance":"good"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"good",
+      "Restrictions":"minimal"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported",
+      "CitationMetadataLevel":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61aa5882975cb": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "ReuseLicense":"none",
+       "DkNetMetadataLevel":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "MetadataReferenceQuality":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"none"
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61609db5051d2": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"none",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"allowed",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     }
+    }
+   }
+  },
+  "61ae7c9289651": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "MetadataReferenceQuality":"formal",
+       "StudyLinkage":"textualMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"supported",
+      "CitationMetadataLevel":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "Citable":"partiallyCitable",
+    "Open":"fullyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "618ab2f1efc9f": {
+   "DataRepoCompliance": {
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Accessible":"partiallyAccessible",
+     "Reusable":"fullyReusable"
+    },
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "DocumentationLevel":"adequate",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"full",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     }
+    },
+    "Open":"fullyOpen"
+   }
+  },
+  "61a50fa18488f": {
+   "DataRepoCompliance": {
+    "Trustworthy":"noConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"fullyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"textualMetadata",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"good"
+      }
+     },
+     "OpenProps": {
+      "Restrictions":"minimal",
+      "CCLicenseCompliance":"none"
+     }
+    }
+   }
+  },
+  "618ac6bb76674": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "621d12cf667c7": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"fullyFindable",
+     "Accessible":"fullyAccessible",
+     "Reusable":"partiallyReusable"
+    },
+    "Open":"fullyOpen",
+    "Properties": {
+     "FAIRProps": {
+      "FindableProps": {
+       "MetadataGrade":"rich",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "MetadataReferenceQuality":"formal",
+       "StudyLinkage":"textualMetadata"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "ReuseLicense":"datasetLevel",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"full",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"good"
+      }
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"good",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "GovernanceTransparency":"opaque",
+      "SourceOpen":"yes"
+     }
+    }
+   }
+  },
+  "618b05ddaf1c8": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"supported",
+      "CitationMetadataLevel":"partial"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61856c2f8d135": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61a67946c16f2": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"good"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      }
+     }
+    }
+   }
+  },
+  "615ca4418ee3f": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "FAIRProps": {
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"no"
+       },
+       "MetadataReferenceQuality":"informal"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"no",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"yes"
+       },
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none",
+       "DocumentationLevel":"full"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      }
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "GovernanceTransparency":"opaque"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61a67f53dc9b3": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "Properties": {
+     "OpenProps": {
+      "CCLicenseCompliance":"adequate",
+      "Restrictions":"none",
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"no",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"exists",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"no"
+       }
+      }
+     }
+    },
+    "FAIR": {
+     "Findable":"partiallyFindable",
+     "Reusable":"notReusable",
+     "Accessible":"partiallyAccessible",
+     "Interoperable":"notInteroperable"
+    }
+   }
+  },
+  "61a7d3c6aeb5d": {
+   "DataRepoCompliance": {
+    "Citable":"notCitable",
+    "Trustworthy":"minorConcerns",
+    "Properties": {
+     "FAIRProps": {
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"good"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"no"
+       }
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"no",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      }
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"no",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "CitationMetadataLevel":"none",
+      "OrcidAssociation":"none"
+     }
+    },
+    "Open":"partiallyOpen",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "61735ece7e758": {
+   "DataRepoCompliance": {
+    "Citable":"fullyCitable",
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "GovernanceTransparency":"partial",
+      "StakeholderGovernance":"full"
+     },
+     "CitableProps": {
+      "CitationMetadataLevel":"full",
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"supported"
+     },
+     "FAIRProps": {
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"yes"
+       },
+       "ReuseLicense":"repositoryLevel",
+       "MetadataProvenance":"adequate",
+       "DkNetMetadataLevel":"none",
+       "DocumentationLevel":"lacking"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"minimal",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"no",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"machineReadableMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "IdInMetadata":"all",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "PersistentIdentifier":"externalPID",
+       "MetadataGrade":"limited"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"byStatedPolicy",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"yes",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       }
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"good",
+      "Restrictions":"none"
+     }
+    },
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    }
+   }
+  },
+  "617aff8495ced": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"yes",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"required",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"allowed",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"rich",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "DkNetMetadataLevel":"dataset",
+       "ReuseLicense":"none"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      }
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable"
+   }
+  },
+  "61895560bbab4": {
+   "DataRepoCompliance": {
+    "Trustworthy":"minorConcerns",
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable",
+    "FAIR": {
+     "Interoperable":"partiallyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Properties": {
+     "CitableProps": {
+      "MachineReadableLandingPage":"supportsDataCitation",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"weak",
+      "GovernanceTransparency":"partial"
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"no",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"none",
+      "Restrictions":"none"
+     },
+     "FAIRProps": {
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"no",
+        "studyLinkageOK":"no"
+       },
+       "StudyLinkage":"freeText",
+       "MetadataReferenceQuality":"freeText"
+      },
+      "AccessibleProps": {
+       "MetadataPersistence":"no",
+       "AccessibleFlags": {
+        "humanAccessible":"yes",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"no",
+        "stdApi":"yes"
+       }
+      },
+      "ReusableProps": {
+       "MetadataProvenance":"unclear",
+       "DocumentationLevel":"adequate",
+       "ReuseLicense":"none",
+       "ReusableFlags": {
+        "documentationOK":"yes",
+        "dkNetMetadataOK":"no",
+        "communityStandard":"yes",
+        "generalMetadata":"yes",
+        "metadataProvenanceOK":"no"
+       },
+       "DkNetMetadataLevel":"none"
+      },
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "MetadataGrade":"minimal",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       }
+      }
+     }
+    }
+   }
+  },
+  "61985711a8424": {
+   "DataRepoCompliance": {
+    "Properties": {
+     "TrustworthinessProps": {
+      "SourceOpen":"partially",
+      "StakeholderGovernance":"good",
+      "GovernanceTransparency":"partial"
+     },
+     "CitableProps": {
+      "MachineReadableLandingPage":"none",
+      "OrcidAssociation":"none",
+      "CitationMetadataLevel":"partial"
+     },
+     "FAIRProps": {
+      "FindableProps": {
+       "PersistentIdentifier":"internalPID",
+       "IdInMetadata":"partial",
+       "FindableFlags": {
+        "internalSearchOK":"yes"
+       },
+       "MetadataGrade":"limited"
+      },
+      "ReusableProps": {
+       "ReusableFlags": {
+        "documentationOK":"no",
+        "dkNetMetadataOK":"yes",
+        "communityStandard":"yes",
+        "generalMetadata":"no",
+        "metadataProvenanceOK":"no"
+       },
+       "MetadataProvenance":"unclear",
+       "ReuseLicense":"repositoryLevel",
+       "DkNetMetadataLevel":"dataset",
+       "DocumentationLevel":"lacking"
+      },
+      "AccessibleProps": {
+       "AccessibleFlags": {
+        "humanAccessible":"no",
+        "machineAccessible":"yes",
+        "persistentMetadata":"no",
+        "licenseOK":"yes",
+        "stdApi":"yes"
+       },
+       "MetadataPersistence":"no"
+      },
+      "InteroperableProps": {
+       "MetadataFAIRness":"enforced",
+       "InteroperableFlags": {
+        "formalMetadataVocabularyOK":"yes",
+        "fairMetadataOK":"yes",
+        "qualifiedMetadataReferencesOK":"yes",
+        "studyLinkageOK":"yes"
+       },
+       "StudyLinkage":"textualMetadata",
+       "MetadataReferenceQuality":"informal"
+      }
+     },
+     "OpenProps": {
+      "OpenFlags": {
+       "openFormat":"no",
+       "platformSupportsDataWork":"yes",
+       "ccLicenseOK":"yes",
+       "restrictionsNotJustified":"no"
+      },
+      "CCLicenseCompliance":"adequate",
+      "Restrictions":"none"
+     }
+    },
+    "Trustworthy":"minorConcerns",
+    "FAIR": {
+     "Interoperable":"fullyInteroperable",
+     "Findable":"partiallyFindable",
+     "Reusable":"partiallyReusable",
+     "Accessible":"partiallyAccessible"
+    },
+    "Open":"partiallyOpen",
+    "Citable":"partiallyCitable"
+   }
+  }
+ }
+}

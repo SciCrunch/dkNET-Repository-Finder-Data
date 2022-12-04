@@ -1,0 +1,618 @@
+Transcript: 619441c4acb77.xml
+
+Questions and Answers:
+1. [sc-drc.dg]acc:
+### Does the repository provide access to the data with minimal or no restrictions?
+
+
+
+How easy is it for users to gain access to the data?  Are any impediments in place reasonable given the nature of the data, e.g., authorization for sensitive data.  Repositories that make metadata available during the embargo period should not be penalized on this question.
+
+
+
+#### Options
+
+* **No restriction:**  Accessible without a log in
+
+* **Minimal restriction:** requiring an account and/or the user to sign data policy agreement would be considered a minimal restriction.  
+
+* **Significant restriction, Authorization required:** Requiring that someone obtain authorization ahead of downloading data, as would be the case for sensitive data, for example, even if it is understandable.
+
+* **Significant but not justified:** The repository imposes significant restrictions for accessing datasets. Said restrictions are too strict for possible harm mis-use of the data might cause.
+
+Answer: no restrictions (0.0000)
+
+2. [sc-drc.dg]reuse:
+### Are you free to reuse the data with no or minimal restrictions?
+
+
+
+Many repositories that claim to be open are only open for humans to read, *not for machine-based access* or *for re-use*. So it is important to check before depositing the data that it is free to re-use according to the definition of the Commons.
+
+
+
+Data should be stored in a non-proprietary format, that is, a format that is published and free for re-use by anyone, such as CSV.  In contrast, proprietary formats can only be read by certain commercial software.  As the goal of publishing data in a repository is for openness and re-use, data reliant on propriety software is by definition non-commons compliant.  Adapted from [Wikipedia](https://en.wikipedia.org/wiki/Proprietary_format)
+
+
+
+Consider the type of data and whether the access mechanism places undue restraints on the ability to re-use the data.  Also, consider the license that specifies 3rd party rights: does it allow the data to be re-used and -shared as part of a new product? 
+
+
+
+Ideally, the repository should have a clear statement about acceptable file format characteristics.  In the absence of such a policy, a check can be made to ascertain which formats are available.  If there are both open and closed examples they are coded as “Yes with proprietary formats”.  If individual data sets are offered under multiple licenses, this can complicate the re-use process further.
+
+
+
+#### Options
+
+* **Yes:**  Permissive license or data use terms including the right to re-distribute products arising from the data;  open and well supported format
+
+* **Somewhat:** Yes with proprietary formats, or with multiple licenses that require users to navigate the terms separately for each data set. A proprietary format that is still well used and has multiple tools that can read it, such as `xls`, is better than a custom format that is not well supported
+
+* **No:**  A proprietary format that is difficult to read without the required software. Inability to distribute data products so that others may build on them. Terms of use are unclear.
+
+Answer: somewhat (0.5000)
+
+3. [sc-drc.dg]lic-clr:
+### Does the repository provide a clear license for reuse of the data?
+
+
+
+Ideally, a metadata field `License=` or an easy to find statement on the web page stating the license under which data are released. The license should also ideally be one in common use where the usage rights are clearly stated and uncomplicated.
+
+
+
+#### Options
+
+* **Dataset Level:** Clear license and assigned at the level of individual data sets as part of the metadata
+
+* **Repository Level:** Clear license provided at the level of the repository, e.g., all data are released under a CC-BY license
+
+* **No license**
+
+Answer: no license (1.0000)
+
+4. [sc-drc.dg]plat:
+### Does the repository platform make it easy to work with (e.g. download/re-use) the data?
+
+
+
+Most repositories provide data for download, but with very large data sets, download can be a significant impediment for reuse.  In such a case, a cloud platform may make it easier for researchers to actually reuse the data.
+
+Answer: no (1.0000)
+
+5. [sc-drc.dg]ru-doc:
+### Does the repository require or support documentation that aids in proper (re)-use of the data?
+
+
+
+Vignettes or help that are designed not just for use of the repository, but that helps users understand the types of questions that can be answered by using the data and tools.  May be at the repository level for homogeneous data or at the data set level for heterogeneous data.  Repositories are expected to have basic help materials and tutorials.  We are asking for a level above that to fully achieve FAIR. not just how to perform certain functions but why you can use the resource to answer certain types of questions.
+
+
+
+#### Options
+
+* **best:**  Basic tutorials/help + accompanied by use cases or user stories at the  repository level and data set level if appropriate
+
+* **good:**  Basic tutorials + encouragement and ability to add use cases even if not enforced
+
+* **adequate:**  Tutorials but no use cases
+
+* **worst:**  Inadequate tutorials + no use cases and no mention of them.
+
+Answer: adequate (0.6667)
+
+6. [sc-drc.dg]sch-ui:
+### Does the repository provide a search facility for the data and metadata?
+
+
+
+Human focused: On-line repositories should provide a means to search available data either through keyword or structured search.
+
+Answer: yes (0.0000)
+
+7. [sc-drc.dg]pid-g:
+### Does the repository assign globally unique and persistent identifiers (PIDs)?
+
+
+
+A globally unique and persistent identifier is one of the key pillars of FAIR data. If a data set can't be found reliably, i.e., it does not have a stable address that is machine-readable, then it can't be accessible, interoperable or reusable to anyone else.  A repository should assign a globally unique and resolvable identifier, e.g., a DOI, to a data set. Many data repositories assign locally unique identifiers, e.g., accession numbers like 5639. These can be turned into globally unique identifiers, e.g., by adding a URL prefix. The repository should also ensure that the identifier is persistent-that is, it is never re-assigned to another entity, even if the underlying data are removed, and the repository must stand behind its resolution, ensuring that the identifier reliably resolves to the data, even if the data move location.  For a more detailed description of identifiers, see [The FAIR Principles Explained](https://www.dtls.nl/fair-data/fair-principles-explained/) by the Dutch Techcenter for Life Sciences.
+
+
+
+Answer is "Yes" if this is the default option, i.e., an externally linked and registered PID, e.g., a DOI, Handle, ARK. Sometimes Accession numbers are offered as standard. These can be easily upgraded to PIDs through the Compact Identifiers functionality (e.g. by registering them at [identifiers.org](https://registry.identifiers.org)) but unless this is specified on the website, the response is "No".
+
+Answer: no (1.0000)
+
+8. [sc-drc.dg]pid-l:
+### Does the repository assign, or the contributor provide, a locally unique identifier to the data set or the data contribution?
+
+
+
+Examples include an accession number, a UUID, or some other convention.
+
+
+
+*Note:* The use of a title or free text as the unique string is not considered compliant.
+
+Answer: yes (0.0000)
+
+9. [sc-drc.dg]land-pg:
+### Does the PID or other dataset identifier resolve to a landing page that describes the data?
+
+
+
+Both the [FAIR principles](https://www.dtls.nl/fair-data/fair-principles-explained/) and the [Data citation principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final) require that metadata persist, even if the data they describe are no longer available.  FAIR also requires that the access rights to the data be both machine-readable and human understandable.  Having the persistent identifier resolve to this page rather than to the data themselves ensures that a stable reference is provided even if the data are removed.  The descriptive metadata should also include the necessary information for citing the data set (see  Fenner M, Crosas M, Grethe J, Kennedy D, Hermjakob H, Rocca-Serra P, Berjon R, Karcher S, Martone M, Clark T (2016) A Data Citation Roadmap for Scholarly Data Repositories. bioRXiv Dec. 28, 2016. [https://doi.org/10.1101/097196](https://doi.org/10.1101/097196))
+
+
+
+---
+
+
+
+We are interpreting this as a stable landing page that contains metadata about the data set that uses the identifier for the data set in the URL. [Cool URI’s don’t change](https://www.w3.org/Provider/Style/URI.html).
+
+Answer: no (1.0000)
+
+10. [sc-drc.dg]md-pid:
+### Does the metadata clearly and explicitly include identifiers of the data it describes?
+
+
+
+Should have a metadata field = data set identifier or equivalent that points to the PID or other identifier if no PID Sometimes it is useful to check the API services if documented about what they provide
+
+
+
+* *all* All study IDs are included in the metadata
+
+* *some* Some study IDs are included, e.g., accession number but not DOI
+
+* *none* No IDs
+
+Answer: some (0.5000)
+
+11. [sc-drc.dg]orcid:
+### Does the repository allow you to associate your [ORCID](https://orcid.org) ID with a dataset?
+
+
+
+Data sets are scholarly works and should be credited as such.  The use of ORCID streamlines this process.
+
+
+
+#### Options:
+
+
+
+* **Required:**  Required and exports relationship to ORCID
+
+* **Supported:**  Recommended but not required
+
+* **None:**  No use of ORCID
+
+Answer: none (1.0000)
+
+12. [sc-drc.dg]md-level:
+### Does the repository support the addition of rich metadata to promote search and reuse of data?
+
+
+
+We are interpreting rich metadata to include the basic descriptive information about the data set, i.e., those fields recommended by the DCIP, with the addition of critical biomedical metadata, e.g., organism studied, disease condition, technique.  dkNET has a recommended set of [rich metadata](https://docs.google.com/document/d/1E1fA2AJDvvmxlS8g8yvpnt6BIayvZVOR7dMYe-hWIiU/view). These data provide an overall context for understanding what the data set is about, but don’t necessarily delve into particulars.
+
+
+
+#### Options
+
+
+
+* **Rich:** the majority of DCIP fields + biomedical extensions according to dkNET or Bio Schema
+
+* **Limited:** Has some structured metadata but room for improvement
+
+* **Minimal:** Minimal descriptive information
+
+Answer: limited (0.5000)
+
+13. [sc-drc.dg]md-prv:
+### Are the (meta)data associated with detailed provenance?
+
+
+
+Is the appropriate provenance provided, e.g., if they use the Gene Ontology term do we know it’s from gene ontology? In biomedicine, making sure that the relationship between subjects and specimens and data is explicit is extremely important.  RRIDs should be used to make sure that all data sets that use the same strain or sample can be found and combined.
+
+Some aspects to look at:
+
+
+
+* Does the repository provide originating information for the data set? Lab, PI, Institution.
+
+* Do they provide a contact person? Does the contact person provide an ORCID?
+
+* Do they use contributor roles so that we know who performed various actions?
+
+* Do they provide an originating publication if applicable?
+
+* Do they provide clear dates for submission and modification?
+
+* Do the have a clear versioning policy?
+
+* If they use external identifiers, are they accessible by their PIDs?  
+
+* Do they make provenance of any externally imported or referenced data explicit in the (meta)data?
+
+
+
+#### Options
+
+* **best:**  Clear provenance where required + machine readable tag;  clear versioning policy and old versions can be accessed
+
+* **good:**  Some good things, e.g., clear provenance provided in free text
+
+* **worst:**  No clear provenance
+
+Answer: good (0.5000)
+
+14. [sc-drc.dg]md-daci:
+### Does the repository provide the required metadata for supporting data citation?
+
+
+
+The repository should provide the necessary metadata for a full data citation according to the Joint Declaration of Data Citation Principles.  Authors, Title of data set, Version, Repository, Date published, PID. It should also be set up to enable exporting the citation reference via a reference manager (e.g. JSON, XML, Bibtex).
+
+
+
+<!--
+
+The [Data Citation Implementation](https://www.force11.org/group/data-citation-implementation-group) and [Pilot Project groups](https://www.force11.org/group/dcip) at FORCE11 created a set of recommendations for how to cite data.  The repository should contain the relevant metadata:  authors (data creators), year, title of data, repository, unique identifier and version number.  For examples and more information, see [A Data Citation Primer](http://force11.github.io/data-citation-primer/authors/).-->
+
+
+
+#### Options
+
+* **Full support:**  The repository contains a metadata field with the full citation(s).
+
+* **Partial Support:**  The repository has the required metadata elements but does not provide an easy way to cite the data. Required metadata should include all contributors just like with an article.
+
+* **No Support:**  Insufficient metadata for a full citation, e.g., no title or authors.
+
+Answer: no support (1.0000)
+
+15. [sc-drc.dg]md-ref:
+### Do the metadata include qualified references to other (meta)data?
+
+
+
+How well specified are the relationships included in the metadata, e.g., applied in the context of publications, does the resource use the DataCite or some other schema/standard that specifies the relationship of an identifier to the data set, e.g., a PubMed ID for a publication that first reported the data set.  Should be machine friendly, e.g., ID’s for publications rather than free text.
+
+
+
+#### Options
+
+
+
+* **best:** The relationship between the data set or element and an identifier that references an external entity is clearly specified, e.g., the people listed and the related publication are clearly specified.
+
+   * Data publication:  DOI or PMID
+
+   * Author:            ORCID + metadata
+
+   * Contact person:    ORCID + appropriate metadata
+
+* **good:** Identifiers provided but no explicit relationships given
+
+  * Publication:  Tagged but doesn’t specify the relationship of the publication to the data set clearly
+
+  * Creators:     Tagged but doesn’t specify key roles clearly
+
+* **worst:** Authors and publication are provided in free text
+
+Answer: good (0.5000)
+
+16. [sc-drc.dg]md-lnk:
+### Does the repository support bidirectional linkages between related objects such that a user accessing one object would know that there is a relationship to another object?
+
+
+
+E.g., does the repository provide a linkage between the publication that first described the data and the data set;  does the repository maintain bidirectional linkages between versions,  if a dataset has multiple parts, each deposited in a different specialist repository, are the linkages clearly specified across all repositories.
+
+
+
+#### Options
+
+* **best:**  Repository not only records article provenance, but links that provenance to the PID such that a consumer of this metadata, e.g., DataCite, Crossref, Zenodo (OpenAIRE) or Scholix, can make use of this information
+
+* **good:**  originating article is clearly indicated with an appropriate metadata tag (check landing page metadata)
+
+* **unclear:**  publication is there but not indicated by a metadata tag, so the relationship between the data set and the publication is not clear (check landing page)
+
+* **worst:**  No record of a publication (and no clear statement that there is no publication) (check landing page)
+
+Answer: unclear (0.6667)
+
+17. [sc-drc.dg]fmt-com:
+### Does the repository enforce or allow the use of community standards for data format or metadata?
+
+
+
+A statement by the repository on the standards they follow and their enforcement policy, including curation and/or software validation. The standards should be recognized as a community standard, e.g., in FAIRsharing or through associated publications. If no such statement can be found on the site, then “No”
+
+Answer: no (1.0000)
+
+18. [sc-drc.dg]md-dkn:
+### Does the repository accept metadata that is applicable to the dkNET community disciplines?
+
+
+
+Biomedical repositories, in addition to the basic [Dublin Core](https://dublincore.org/specifications/dublin-core/) or [Schema.org](http://schema.org) metadata, require certain fields to maximize utility as specified in dkNET’s rich metadata specification. In addition, since dkNET is fostering an information network among the centers and data bases funded by NIDDK, we are expecting that they will include relevant connections to other dkNET listed resources.
+
+
+
+#### Options
+
+* **Best:** plurality. Subject level metadata (ages, weights and sex of each subject rather than pooled data).  
+
+* **Good:** some basic biomedically relevant metadata
+
+* **Worst:** only generic metadata is supplied
+
+Answer: good (0.5000)
+
+19. [sc-drc.dg]md-psst:
+### Does the repository have a policy that ensures the metadata (landing page) will persist even if the data are no longer available?
+
+
+
+Is there evidence that metadata persists even when the data are no longer available.  Ideally, repositories clearly state their accessioning and de-accessioning policies as per the data citation principles.
+
+
+
+#### Options
+
+
+
+* **by policy:** a clear persistence policy
+
+* **by evidence:** evidence that dataset metadata is persisted when its dataset becomes unavailable  (e.g., landing page makes it clear that a data set is no longer available)
+
+* **no:** No policy stated and no evidence.
+
+Answer: no (1.0000)
+
+20. [sc-drc.dg]md-FAIR:
+### Do the metadata use vocabularies that follow FAIR principles?
+
+
+
+Use of a community ontology, e.g., OBO, or a controlled vocabulary that follows FAIR principles in order to facilitate combining data from one repository with another.
+
+
+
+#### Options
+
+
+
+* **enforced:** Required mapping to appropriate FAIR community ontologies widely used in biomedicine and vocabularies where possible and clear documentation
+
+* **allowed:** Allowed use of identifiers in the metadata scheme although not necessarily enforced; use of some identifiers but lack of mapping in some areas where it would be possible
+
+* **minimal:** Minimal or no mapping to appropriate ontologies
+
+Answer: minimal (1.0000)
+
+21. [sc-drc.dg]land-api:
+### Does the repository provide a machine-readable landing page?
+
+
+
+Ideally, the citation metadata (both descriptive and data citation relevant) should be able to be harvested automatically, e.g., by a citation manager.  We check this by:
+
+
+
+1. Can you import the landing page metadata into a reference manager tool like Mendeley or Paperpile
+
+1. If you look at the page source, do you see recognizable elements from Dublin Core or Schema.org in the mark up metatags (Should be in the html head part).
+
+
+
+More on implementations of machine-readable metadata on dataset landing pages, see M. Fenner et al. _A data citation roadmap for scholarly data repositories_, Scientific Data, 2019. [doi.org/10.1038/s41597-019-0031-8](https://doi.org/10.1038/s41597-019-0031-8).
+
+Answer: no (1.0000)
+
+22. [sc-drc.dg]md-cs:
+### Does the repository use a recognized community standard for representing basic metadata?
+
+
+
+There are good schemas now available for general purpose data set metadata, e.g., DataCite schema, Dublin Core, schema.org.  When a recognized schema is used, it promotes interoperability among data repositories and helps with data set search. Does the repository have supporting software and tools to enforce and take advantage of this standard, e.g., a validator.
+
+
+
+#### Options
+
+* **Yes:** When a recognized schema is mentioned.
+
+* **No:** Otherwise.
+
+Answer: no (1.0000)
+
+23. [sc-drc.dg]acc-api:
+### Can the (meta)data be accessed via a standards compliant API?
+
+
+
+The repository provides documentation on how to programmatically access their content and that this method uses a well recognized and used method for access, e.g., RESTful services.
+
+Answer: no (1.0000)
+
+24. [sc-drc.dg]md-vcb:
+### Do the metadata use a formal accessible shared and broadly applicable language for knowledge representation?
+
+
+
+The key concept here is “shared”. That is, two resources that use the same tags to mean the same thing, can be combined more easily than if they assign custom labels.  https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/  In assessing the repository, consider the hurdles that have to be cleared in order to use the data and metadata, in other words, what does the user have to struggle with before using the data?  Check formats, services provided and evaluate whether they conform with the principle.
+
+
+
+Resources include [GOFAIR](https://www.go-fair.org/fair-principles/i1-metadata-use-formal-accessible-shared-broadly-applicable-language-knowledge-representation/):
+
+
+
+> Humans should be able to exchange and interpret each other’s data (so preferably do not use dead languages). But this also applies to computers, meaning that data that should be readable for machines without the need for specialised or ad hoc algorithms, translators, or mappings. 
+
+
+
+The RDF extensible knowledge representation model is a way to describe and structure datasets. The Dublin Core Schema is an example. Also includes: OWL, JSON LD, OPM (Open Provenance Model) and OntoDM (Ontology for Data Mining), EBI RDF Platform ontologies
+
+
+
+#### Options
+
+
+
+* **Yes:** if a formal, accessible language is explicitly listed.  Some common formats (including Schema.org/microformats)
+
+* **No:**  if no evidence of such a language can be found.
+
+Answer: no (1.0000)
+
+25. [sc-drc.dg]sch-api:
+### Does the repository provide an API-based search of the data and metadata?
+
+
+
+Application focused: A remote system can send a query according to a structured API, and the repository will return a list of datasets or research artifacts that match the query criteria.
+
+Answer: no (1.0000)
+
+26. [sc-drc.dg]gov-tsp:
+### Is the governance of the repository transparent?
+
+
+
+In general, the operations of a repository, including the selection of an advisory board, should be [transparent](https://hyp.is/Ionpxh-5EeeELfNgkgoC8w/cameronneylon.net/blog/principles-for-open-scholarly-infrastructures/).  
+
+
+
+Evidence of how decisions are made that affect the repository’s scope or direction, e.g.,  Is there an Advisory Board? how are advisory members chosen, what are their terms, how are decisions made on behalf of the repository?  Is it one person?  Is there a voting system?  Do we know who runs the repository?
+
+
+
+#### Options:
+
+
+
+* **Best:**  Clear and up to date information
+
+* **Good:**  Some information but perhaps difficult to find, not exactly clear or up to date
+
+* **Worst:**  No information at all
+
+Answer: good (0.5000)
+
+27. [sc-drc.dg]gov-stk:
+### Is the repository stakeholder governed?
+
+
+
+Does the repository make it clear how the community participates in the decision making process for the repository.
+
+Should have a listing of the board and evidence that they meet regularly, e.g. minutes, reports, etc.
+
+
+
+We adapt here some of the principles for open infrastructures laid out by Bilder G, Lin J, Neylon C (2015) [Principles for Open Scholarly Infrastructure](http://dx.doi.org/10.6084/m9.figshare.1314859).  One of the most important is that the repository is [stakeholder governed](https://hyp.is/_X3W4h-4EeeCpm8NXWVZGg/cameronneylon.net/blog/principles-for-open-scholarly-infrastructures/).  
+
+
+
+#### Options:
+
+
+
+* **Full:**  Repository is governed by the research community through a clear governance process
+
+* **Good:**  Repository is run by an individual or company but has a strong scientific advisory board that has power to influence decisions.  
+
+* **Weak:**  Clearly run by NIH/researchers for researchers but not really governed as a community resource
+
+* **None:**  Unclear or no accountability to the scientific community, and no means of input
+
+Answer: weak (0.6667)
+
+28. [sc-drc.dg]oss:
+### Is the code that runs the data infrastructure covered under an open source license?
+
+
+
+From the principles of open infrastructures.  If the repository violates the community principles, could the repository be recreated by the community?  Some of them are and say so. Some things to look for:
+
+
+
+1. Is Code maintained in an open repository?
+
+1. Is the license for the code made clear?
+
+1. Is it an open license?
+
+
+
+
+
+#### Options:
+
+* **Best:**  Code maintained in an open code repository where it can be forked. The license allows for reuse by 3rd parties.
+
+* **Good:**  Code covered under an open license but not maintained in an open repository
+
+* **No:**  No evidence of the above
+
+Answer: no (1.0000)
+
+29. [sc-drc.dg]tr-seal:
+### Has the repository been certified by [Data Seal of Approval](https://www.datasealofapproval.org/en/information/requirements/) or the [Core Trust Seal](https://www.coretrustseal.org/) or equivalent?
+
+
+
+These two review processes have merged but either is acceptable and indicates that the repository has undergone an external review for trustworthiness.
+
+
+
+#### Links
+
+* [Data Seal of Approval](https://www.datasealofapproval.org/en/information/requirements/)
+
+* [Core Trust Seal](https://www.coretrustseal.org/)
+
+Answer: no (1.0000)
+
+
+Results:
+AccessibleProps/FAIRProps/Properties/DataRepoCompliance/AccessibleFlags: machineAccessible
+AccessibleProps/FAIRProps/Properties/DataRepoCompliance/MetadataPersistence: no
+CitableProps/Properties/DataRepoCompliance/CitationMetadataLevel: none
+CitableProps/Properties/DataRepoCompliance/MachineReadableLandingPage: none
+CitableProps/Properties/DataRepoCompliance/OrcidAssociation: none
+DataRepoCompliance/Citable: notCitable
+DataRepoCompliance/Open: partiallyOpen
+DataRepoCompliance/Trustworthy: minorConcerns
+FAIR/DataRepoCompliance/Accessible: partiallyAccessible
+FAIR/DataRepoCompliance/Findable: partiallyFindable
+FAIR/DataRepoCompliance/Interoperable: partiallyInteroperable
+FAIR/DataRepoCompliance/Reusable: partiallyReusable
+FindableProps/FAIRProps/Properties/DataRepoCompliance/FindableFlags: internalSearchOK
+FindableProps/FAIRProps/Properties/DataRepoCompliance/IdInMetadata: partial
+FindableProps/FAIRProps/Properties/DataRepoCompliance/MetadataGrade: limited
+FindableProps/FAIRProps/Properties/DataRepoCompliance/PersistentIdentifier: internalPID
+InteroperableProps/FAIRProps/Properties/DataRepoCompliance/InteroperableFlags: qualifiedMetadataReferencesOK
+InteroperableProps/FAIRProps/Properties/DataRepoCompliance/MetadataFAIRness: minimal
+InteroperableProps/FAIRProps/Properties/DataRepoCompliance/MetadataReferenceQuality: informal
+InteroperableProps/FAIRProps/Properties/DataRepoCompliance/StudyLinkage: freeText
+OpenProps/Properties/DataRepoCompliance/CCLicenseCompliance: none
+OpenProps/Properties/DataRepoCompliance/Restrictions: none
+ReusableProps/FAIRProps/Properties/DataRepoCompliance/DkNetMetadataLevel: dataset
+ReusableProps/FAIRProps/Properties/DataRepoCompliance/DocumentationLevel: adequate
+ReusableProps/FAIRProps/Properties/DataRepoCompliance/MetadataProvenance: adequate
+ReusableProps/FAIRProps/Properties/DataRepoCompliance/ReusableFlags: dkNetMetadataOK,documentationOK,metadataProvenanceOK
+ReusableProps/FAIRProps/Properties/DataRepoCompliance/ReuseLicense: none
+TrustworthinessProps/Properties/DataRepoCompliance/GovernanceTransparency: partial
+TrustworthinessProps/Properties/DataRepoCompliance/SourceOpen: no
+TrustworthinessProps/Properties/DataRepoCompliance/StakeholderGovernance: weak
