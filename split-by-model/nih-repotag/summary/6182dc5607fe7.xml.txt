@@ -1,0 +1,176 @@
+Transcript: 6182dc5607fe7.xml
+
+Questions and Answers:
+1. [decision-graph.dg]qApplication:
+# Does the repository require depositors to go through an application process prior to depositing datasets?
+
+Answer: yes (0.0000)
+
+2. [decision-graph.dg]qSize:
+# Does the repository impose size limits?
+
+
+
+Some repositories place limits on the size of data that can be deposited. These limits may involve: 
+
+
+
+1. absolute limits, i.e., they will accept no dataset above a certain size;
+
+2. relative limits, e.g., data above a certain size is subject to approval or perhaps additional costs;
+
+3. submission limits, e.g., data above a certain size requires special arrangements for submission.
+
+
+
+### Terms
+
+* *contact*: Contact the repository management for depositing large datasets.
+
+
+
+---
+
+
+
+### 📝 Notes 
+
+Note any limits in the notes field
+
+Answer: no (0.0000)
+
+3. [decision-graph.dg]qCost:
+# Does depositing data involve costs to the depositor?
+
+
+
+Sometimes there are conditions under which the depositor has to pay.
+
+
+
+---
+
+
+
+### 📝 Notes 
+
+Please add those conditions in the notes field.
+
+Answer: always (1.0000)
+
+4. [decision-graph.dg]qVersioning:
+# Does the repository support versioning?
+
+
+
+Check whether there's a version number in the metadata, check policy for information, if they handle it as a new data submission then the answer is 'no' unless there's something clearly about the relationship between the different versions.
+
+Answer: no (1.0000)
+
+5. [decision-graph.dg]qPhi:
+# Can the repository store data containing PHI or any other sensitive information?
+
+
+
+The repository needs to have an explicit statement that they're able to handle identified human subject data or other sensitive information that cannot be made public.  Generally, the repository will have documentation about access requirements, e.g., applying to a data access committee to receive permission to use the data.
+
+
+
+### Terms
+
+* *PHI*: Protected Health Information. See also [What Health Information Is Protected by the Privacy Rule?](https://privacyruleandresearch.nih.gov/pr_07.asp)
+
+Answer: yes (0.0000)
+
+6. [decision-graph.dg]qHIPAA:
+# Is the repository HIPAA compliant?
+
+
+
+If it allows human subject data to be deposited, is the repository compliant with US [HIPAA](https://www.cdc.gov/phlp/publications/topic/hipaa.html)? This is generally in the area of de-identification.
+
+Answer: no (1.0000)
+Note: 
+there is no info about HIPAA compliant;during submission certificate of confidiality needed;they de-identify data
+
+7. [decision-graph.dg]qDomain:
+# Does the repository focus on a specific domain?
+
+
+
+Is there a specific biomedical discipline or subdiscipline this repository is serving such that if you're not working within the discipline you would not be depositing data. E.g. AMPT2D.
+
+
+
+Note that __domain__ is different from __data type__ (e.g. genomics).
+
+Answer: no (1.0000)
+Note: 
+data collected across different domains
+
+8. [decision-graph.dg]qDataType:
+# Does the repository store a single data type?
+
+
+
+The repository is primarily built around a single type of data, e.g. imaging data although it may allow multiple types of imaging data.  The repository also may allow supporting information that is of another data type.
+
+Answer: no (1.0000)
+
+9. [decision-graph.dg]qContact:
+# Does the repository supply a contact person?
+
+Answer: yes (0.0000)
+
+10. [decision-graph.dg]qFundingSource:
+# Does the repository require data to come from an NIH funded project?
+
+
+
+### Terms
+
+* *NIH*: US National Institutes of Health
+
+Answer: no (0.0000)
+
+11. [decision-graph.dg]qPublised:
+# Does the repository require datasets to support a published paper?
+
+
+
+If there is no explicit statement that claims this, then we say no.
+
+Answer: no (1.0000)
+Note: 
+in order to get dataset DOI, dataset must be associated with published paper;
+
+12. [decision-graph.dg]qCitationMetadata:
+# Does the repository make it easy to cite data?
+
+
+
+For example, the repository provides a formatted data citation with each dataset.
+
+
+
+### Terms
+
+* *limited:* The repository presents formatted data citation that users can cut and paste
+
+* *yes:* The repository can export Bibtex, or allows datasets to be imported into reference managers.
+
+Answer: no (0.0000)
+
+
+Results:
+CitationSupport/NIHDSP/MetadataLevel: none
+NIHDSP/DataTypes: clnTrl,cryst,cytom,em,gnmc,gnphn,gwas,img,intrpath,neurec,neustrct,nmrs,protstrct,prtmc,seq
+NIHDSP/Domain: addhiv,ccbb,cncr,diadkd,enz,flyGntx,imm,inf,mcrbm,msGntx,mtblm,neuro,phys,strbio,zebdGntx
+NIHDSP/Flags: hasContactPerson
+NIHDSP/HIPAACompliance: nonCompliant
+NIHDSP/PHISupport: supported
+NIHDSP/Versioning: notSupported
+Restrictions/NIHDSP/ApplicationRequired: yes
+Restrictions/NIHDSP/Costs: yes
+Restrictions/NIHDSP/FundingSource: Any
+Restrictions/NIHDSP/SizeLimits: none

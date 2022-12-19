@@ -1,0 +1,4167 @@
+{
+ "space": {
+  "NIHDSP": {
+   "Restrictions": {
+    "ApplicationRequired":["no","yes"],
+    "SizeLimits":["none","contactRepo","yes"],
+    "Costs":["none","_sometimes","yes"],
+    "FundingSource":["Any","NIHOnly","NIHInstituteOnly","NIDDKOnly"],
+    "OtherRestrictions": {
+     "publishedOnly":["no","yes"]
+    }
+   },
+   "Versioning":["notSupported","supported"],
+   "PHISupport":["notSupported","supported"],
+   "DataTypes": {
+    "clnTrl":["no","yes"],
+    "cryst":["no","yes"],
+    "cytom":["no","yes"],
+    "em":["no","yes"],
+    "gwas":["no","yes"],
+    "gnmc":["no","yes"],
+    "gnphn":["no","yes"],
+    "img":["no","yes"],
+    "intrpath":["no","yes"],
+    "nmrs":["no","yes"],
+    "neurec":["no","yes"],
+    "neustrct":["no","yes"],
+    "protstrct":["no","yes"],
+    "prtmc":["no","yes"],
+    "seq":["no","yes"]
+   },
+   "Domain": {
+    "addhiv":["no","yes"],
+    "cncr":["no","yes"],
+    "ccbb":["no","yes"],
+    "diadkd":["no","yes"],
+    "enz":["no","yes"],
+    "flyGntx":["no","yes"],
+    "imm":["no","yes"],
+    "inf":["no","yes"],
+    "mtblm":["no","yes"],
+    "mcrbm":["no","yes"],
+    "msGntx":["no","yes"],
+    "neuro":["no","yes"],
+    "phys":["no","yes"],
+    "strbio":["no","yes"],
+    "zebdGntx":["no","yes"]
+   },
+   "HIPAACompliance":["nonCompliant","compliant"],
+   "CitationSupport": {
+    "MetadataLevel":["none","partial","full"],
+    "PID":["none","supported","generated"],
+    "DOI":["notSupported","supported"]
+   },
+   "Flags": {
+    "hasContactPerson":["no","yes"]
+   }
+  }
+ },
+ "transcripts": {
+  "61686ff532d84": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"full",
+     "PID":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "618e946382942": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"yes",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "HIPAACompliance":"nonCompliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"yes",
+     "FundingSource":"NIDDKOnly",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "619855cdf252b": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "619425a9727a7": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"yes",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61b2356fd0da7": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"yes",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "617864108327a": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"NIHOnly",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61aa579266f9c": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"yes",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61a67792d7cae": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "6179b959adabb": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"yes",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "615dc2fbd22e0": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"yes",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61a9171c4bc51": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"yes",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6180631e0deb3": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61605fb58afad": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"_sometimes",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "6164b707b77b7": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "618ac64660c82": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61a9088e0473a": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"partial",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"yes",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "617c7686bf811": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61a7b7e1b702c": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61a67ea0d035e": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"yes",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61941b83b6133": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"yes",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61686ac4ad055": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"full",
+     "PID":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61782a0f4e570": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"yes",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61983144ed7d5": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61afe1bc20b2b": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"yes",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61b26393d0bdb": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"yes",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6180580202271": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "617742d14acc1": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "6198635f7a0e6": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"yes",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61a7e807dba71": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"yes",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6165b0f93475d": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61783dff71132": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61819416c02ac": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"yes",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61735aa7d68c3": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "618eaa21a0564": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"yes",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61732cf671895": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"supported"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"NIHOnly",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61ae86258c270": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6182f50c70005": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"partial",
+     "PID":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61b38d900de6a": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"yes",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"yes",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "619c189ff2a15": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"yes",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"yes",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"NIHOnly",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "617acbeb92a09": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61818b3d0e2ea": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "616f3cb72e148": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"full",
+     "PID":"supported"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"yes",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"NIHOnly",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6187717eaa7b2": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"yes",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "619c32ba6e32b": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61a50edd51b77": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"yes",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61799a43902aa": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61ae4f12d113f": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"yes",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6176dfa6ee87d": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"yes",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"yes",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6194372d6bb96": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"yes",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61afbe71c6643": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "618b0e11d745c": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "618009bd3789a": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"yes",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61b25727446b0": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"yes",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61a9297ab439f": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "6183016f8dc5b": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "6171cf99205e8": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "618169173a39c": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"yes",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61609c4c0f5e7": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"yes",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"yes",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61818011c4f4c": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "618563e3821c2": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61ae7b82bec16": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"yes",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "6182dc5607fe7": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "HIPAACompliance":"nonCompliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"yes",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61aa8d0ee4e26": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"yes",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "614b942a24e02": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"partial",
+     "PID":"supported"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"yes",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"yes",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "617afee95d0df": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"yes",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "618af15d68116": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"partial",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"_sometimes",
+     "FundingSource":"Any",
+     "OtherRestrictions": {
+      "publishedOnly":"yes"
+     },
+     "SizeLimits":"yes"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "618ab19899b69": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"yes",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61b3966dde82e": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"partial",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "61a66c46bf63e": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"supported"
+   }
+  },
+  "618af98b39720": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"yes",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61a7d367c0770": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "61980ddc919a0": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"yes",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "616769a459812": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"yes"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "618b03f590135": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"yes",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "616710b6c03dd": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"yes",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6176c6b4dd317": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"supported",
+     "MetadataLevel":"full",
+     "PID":"generated"
+    },
+    "DataTypes": {
+     "clnTrl":"yes",
+     "cryst":"yes",
+     "cytom":"yes",
+     "em":"yes",
+     "gwas":"yes",
+     "gnmc":"yes",
+     "gnphn":"yes",
+     "img":"yes",
+     "intrpath":"yes",
+     "nmrs":"yes",
+     "neurec":"yes",
+     "neustrct":"yes",
+     "protstrct":"yes",
+     "prtmc":"yes",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"yes",
+     "cncr":"yes",
+     "ccbb":"yes",
+     "diadkd":"yes",
+     "enz":"yes",
+     "flyGntx":"yes",
+     "imm":"yes",
+     "inf":"yes",
+     "mtblm":"yes",
+     "mcrbm":"yes",
+     "msGntx":"yes",
+     "neuro":"yes",
+     "phys":"yes",
+     "strbio":"yes",
+     "zebdGntx":"yes"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"contactRepo"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "617af27cbf803": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"yes",
+     "prtmc":"no",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "619440196209e": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "MetadataLevel":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"yes",
+     "seq":"no"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"yes",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"no",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "PHISupport":"notSupported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  },
+  "6189537d1a4ec": {
+   "NIHDSP": {
+    "CitationSupport": {
+     "DOI":"notSupported",
+     "MetadataLevel":"partial",
+     "PID":"none"
+    },
+    "DataTypes": {
+     "clnTrl":"no",
+     "cryst":"no",
+     "cytom":"no",
+     "em":"no",
+     "gwas":"no",
+     "gnmc":"no",
+     "gnphn":"no",
+     "img":"no",
+     "intrpath":"no",
+     "nmrs":"no",
+     "neurec":"no",
+     "neustrct":"no",
+     "protstrct":"no",
+     "prtmc":"no",
+     "seq":"yes"
+    },
+    "Domain": {
+     "addhiv":"no",
+     "cncr":"no",
+     "ccbb":"no",
+     "diadkd":"no",
+     "enz":"no",
+     "flyGntx":"no",
+     "imm":"no",
+     "inf":"no",
+     "mtblm":"no",
+     "mcrbm":"no",
+     "msGntx":"no",
+     "neuro":"no",
+     "phys":"no",
+     "strbio":"yes",
+     "zebdGntx":"no"
+    },
+    "Flags": {
+     "hasContactPerson":"yes"
+    },
+    "HIPAACompliance":"compliant",
+    "PHISupport":"supported",
+    "Restrictions": {
+     "ApplicationRequired":"no",
+     "Costs":"none",
+     "FundingSource":"Any",
+     "SizeLimits":"none"
+    },
+    "Versioning":"notSupported"
+   }
+  }
+ }
+}
